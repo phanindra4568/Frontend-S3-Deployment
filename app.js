@@ -1,7 +1,7 @@
 const clientId = "YOUR_CLIENT_ID";
-const domain = "YOUR_COGNITO_DOMAIN";
+const domain = "YOUR_COGNITO_DOMAIN"; // example: myapp-login
 const region = "us-east-2";
-const redirectUri = "YOUR_S3_URL/callback.html"; 
+const redirectUri = "YOUR_S3_URL/callback.html";
 
 document.getElementById("loginBtn").addEventListener("click", () => {
   const loginUrl =
